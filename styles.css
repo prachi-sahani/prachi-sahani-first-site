@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #ca786d;
+}
+
 body{
     font-family: 'Noto Sans TC', sans-serif;
 }
@@ -14,4 +19,21 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
+}
+
+.link{
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: solid 1px var(--primary-color)
 }
