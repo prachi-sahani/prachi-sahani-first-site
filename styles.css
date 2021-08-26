@@ -37,3 +37,12 @@ hr{
     border-radius: 0.5rem;
     border: solid 1px var(--primary-color)
 }
+
+.list-no-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+    padding: 0 0.5rem;
+}
