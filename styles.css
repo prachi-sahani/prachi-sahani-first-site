@@ -83,14 +83,14 @@ hr{
     margin: auto;
 }
 
-.hero .hero-heading{
+.hero-heading{
     text-align: center;
     font-size: 2rem;
     color: var(--dark-grey);
     padding-top: 1rem;
 }
 
-.hero .hero-heading .heading-highlighted{
+.heading-highlighted{
     color: var(--primary-color);
 }
 
