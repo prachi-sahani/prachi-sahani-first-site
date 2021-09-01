@@ -47,7 +47,7 @@ hr{
 
 .list-item-inline{
     display: inline;
-    padding: 0 0.5rem;
+    /* padding: 0 0.5rem; */
 }
 
 .navigation{
@@ -127,3 +127,8 @@ hr{
 .footer .social-links{
     padding-inline-start: 0;
 }
+
+.icon{
+    height: 2rem;
+    width: 2rem;
+  }
